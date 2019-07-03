@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 100px;
+    transition: all .3s ease;
+}
+
+.m:hover {
+    transform: rotate(20deg);
+    color: chocolate;
+}
+
+.o:hover {
+    transform: rotate(20deg);
+    color: violet;
+}
+
+.i:hover {
+    transform: rotate(20deg);
+    color: cornflowerblue;
+}
+
+.s:hover {
+    transform: rotate(20deg);
+    color: rgb(36, 0, 241);
+}
+
+.e:hover {
+    transform: rotate(20deg);
+    color: rgb(128, 133, 58);
+}
+
+.s2:hover {
+    transform: rotate(20deg);
+    color: rgb(255, 0, 0);
+}
